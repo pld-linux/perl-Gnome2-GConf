@@ -4,8 +4,8 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pnam	Gnome2-GConf
-Summary:	Perl interface to the Gnome GConf
-Summary(pl):	Interfejs perlowy do Gnome Gconf
+Summary:	Perl interface to the GNOME GConf
+Summary(pl):	Interfejs perlowy do GNOME Gconf
 Name:		perl-%{pnam}
 Version:	1.000
 Release:	1
