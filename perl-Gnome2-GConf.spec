@@ -7,25 +7,24 @@
 Summary:	Perl interface to the Gnome GConf
 Summary(pl):	Interfejs perlowy do Gnome Gconf
 Name:		perl-%{pnam}
-Version:	0.91
+Version:	0.92
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	1f20de84d4cd4fdec13e7d00980afeb2
+# Source0-md5:	3ed3301830ce004f6d0d6a53a7af14c2
 URL:		http://gtk2-perl.sf.net/
 BuildRequires:	GConf2-devel
 BuildRequires:	gtk+2-devel
-BuildRequires:	libgnomeui-devel >= 2.0.0
 BuildRequires:	perl-ExtUtils-Depends >= 0.201
 BuildRequires:	perl-ExtUtils-PkgConfig >= 1.03
-BuildRequires:	perl-Glib >= 1.020
-BuildRequires:	perl-Gtk2 >= 1.020
+BuildRequires:	perl-Glib >= 1.037
+BuildRequires:	perl-Gtk2 >= 1.037
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	pkgconfig
 BuildRequires:	rpm-perlprov >= 4.1-13
-Requires:	perl-Glib >= 1.020
-Requires:	perl-Gtk2 >= 1.020
+Requires:	perl-Glib >= 1.037
+Requires:	perl-Gtk2 >= 1.037
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
