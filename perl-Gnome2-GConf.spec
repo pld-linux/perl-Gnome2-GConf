@@ -6,7 +6,7 @@
 %define	pnam	Gnome2-GConf
 Summary:	Perl interface to the GNOME GConf
 Summary(pl):	Interfejs perlowy do GNOME Gconf
-Name:		perl-GConf
+Name:		perl-Gnome2-GConf
 Version:	1.000
 Release:	1
 License:	LGPL
