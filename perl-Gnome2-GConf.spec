@@ -8,7 +8,7 @@ Summary:	Perl interface to the GNOME GConf
 Summary(pl):	Interfejs perlowy do GNOME Gconf
 Name:		perl-Gnome2-GConf
 Version:	1.000
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
@@ -64,6 +64,7 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Gnome2/GConf.pm
 %dir %{perl_vendorarch}/auto/Gnome2/GConf
 %attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/GConf/*.so
+%dir %{perl_vendorarch}/Gnome2/GConf
 %{perl_vendorarch}/auto/Gnome2/GConf/*.bs
 %{perl_vendorarch}/Gnome2/GConf/Install
 %{_mandir}/man3/*
