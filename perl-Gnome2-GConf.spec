@@ -9,7 +9,7 @@ Summary(pl):	Interfejs perlowy do GNOME Gconf
 Name:		perl-%{pnam}
 Version:	1.000
 Release:	1
-License:	GPL
+License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
 # Source0-md5:	00e81cd30c2e4a94bff526b09b60eda1
