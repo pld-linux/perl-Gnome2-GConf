@@ -12,7 +12,7 @@ Release:	0.1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	d63942ddc8a221c64190d014998da7a3
+# Source0-md5:	d71fdc9a301ce7ee569e9718c2aa7b7d
 URL:		http://gtk2-perl.sf.net/
 BuildRequires:	GConf2-devel
 BuildRequires:	gtk+2-devel
