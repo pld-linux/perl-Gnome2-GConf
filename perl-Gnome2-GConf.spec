@@ -3,7 +3,7 @@
 %bcond_without tests	# don't perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pnam	Gnome2-GConf
+%define		pnam	Gnome2-GConf
 Summary:	Perl interface to the GNOME GConf
 Summary(pl):	Interfejs perlowy do GNOME GConf
 Name:		perl-Gnome2-GConf
