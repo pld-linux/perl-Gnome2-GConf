@@ -13,7 +13,7 @@ License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
 # Source0-md5:	01b6baf38922bda3702be6cdeec0fc43
-URL:		http://gtk2-perl.sf.net/
+URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	GConf2-devel >= 2.14.0
 BuildRequires:	gtk+2-devel
 BuildRequires:	perl-ExtUtils-Depends >= 0.201
