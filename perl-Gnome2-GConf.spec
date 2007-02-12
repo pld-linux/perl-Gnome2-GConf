@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	Gnome2-GConf
 Summary:	Perl interface to the GNOME GConf
-Summary(pl):	Interfejs perlowy do GNOME GConf
+Summary(pl.UTF-8):   Interfejs perlowy do GNOME GConf
 Name:		perl-Gnome2-GConf
 Version:	1.043
 Release:	1
@@ -30,8 +30,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module allow to use the GConf configuration system in order to
 store/retrieve the configuration of an application.
 
-%description -l pl
-Modu³ pozwalaj±cy korzystaæ z systemu konfiguracji GConf w celu
+%description -l pl.UTF-8
+ModuÅ‚ pozwalajÄ…cy korzystaÄ‡ z systemu konfiguracji GConf w celu
 zapisania/odczytania konfiguracji programu.
 
 %prep
