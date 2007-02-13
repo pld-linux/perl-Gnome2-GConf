@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	Gnome2-GConf
 Summary:	Perl interface to the GNOME GConf
-Summary(pl.UTF-8):   Interfejs perlowy do GNOME GConf
+Summary(pl.UTF-8):	Interfejs perlowy do GNOME GConf
 Name:		perl-Gnome2-GConf
 Version:	1.043
 Release:	1
