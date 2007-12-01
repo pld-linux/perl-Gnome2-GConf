@@ -7,23 +7,24 @@
 Summary:	Perl interface to the GNOME GConf
 Summary(pl.UTF-8):	Interfejs perlowy do GNOME GConf
 Name:		perl-Gnome2-GConf
-Version:	1.043
+Version:	1.044
 Release:	1
-License:	LGPL
+License:	LGPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	bc3fe822c5dc3324f42bd02a3d6933b7
+# Source0-md5:	ea386003b18f067524833b0eeb271330
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	GConf2-devel >= 2.14.0
+# for typemaps generation
 BuildRequires:	gtk+2-devel >= 2:2.10.3
 BuildRequires:	perl-ExtUtils-Depends >= 0.201
 BuildRequires:	perl-ExtUtils-PkgConfig >= 1.03
-BuildRequires:	perl-Glib >= 1.140
+BuildRequires:	perl-Glib >= 1.162-2
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	pkgconfig
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	GConf2 >= 2.14.0
-Requires:	perl-Glib >= 1.140
+Requires:	perl-Glib >= 1.162-2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -68,4 +69,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/Gnome2/GConf
 %{perl_vendorarch}/auto/Gnome2/GConf/*.bs
 %{perl_vendorarch}/Gnome2/GConf/Install
-%{_mandir}/man3/*
+%{_mandir}/man3/Gnome2::GConf*.3pm*
