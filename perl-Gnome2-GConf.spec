@@ -8,7 +8,7 @@ Summary:	Perl interface to the GNOME GConf
 Summary(pl.UTF-8):	Interfejs perlowy do GNOME GConf
 Name:		perl-Gnome2-GConf
 Version:	1.044
-Release:	1
+Release:	2
 License:	LGPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
