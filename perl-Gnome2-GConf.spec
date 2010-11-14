@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# don't perform "make test"
+%bcond_with	tests	# perform "make test" (requires usable gconfd)
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pnam	Gnome2-GConf
