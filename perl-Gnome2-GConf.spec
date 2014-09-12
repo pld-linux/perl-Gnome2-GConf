@@ -68,6 +68,5 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorarch}/auto/Gnome2/GConf
 %attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/GConf/*.so
 %dir %{perl_vendorarch}/Gnome2/GConf
-%{perl_vendorarch}/auto/Gnome2/GConf/*.bs
 %{perl_vendorarch}/Gnome2/GConf/Install
 %{_mandir}/man3/Gnome2::GConf*.3pm*
