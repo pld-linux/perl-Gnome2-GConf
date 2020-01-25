@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test" (requires usable gconfd)
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pnam	Gnome2-GConf
 Summary:	Perl interface to the GNOME GConf
 Summary(pl.UTF-8):	Interfejs perlowy do GNOME GConf
