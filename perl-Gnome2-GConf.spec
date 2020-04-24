@@ -22,6 +22,7 @@ BuildRequires:	perl-Glib >= 1.162-2
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	pkgconfig
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 Requires:	GConf2 >= 2.14.0
 Requires:	perl-Glib >= 1.162-2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
