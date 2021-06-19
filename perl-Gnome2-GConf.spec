@@ -6,12 +6,12 @@
 Summary:	Perl interface to the GNOME GConf
 Summary(pl.UTF-8):	Interfejs perlowy do GNOME GConf
 Name:		perl-Gnome2-GConf
-Version:	1.044
-Release:	3
+Version:	1.047
+Release:	1
 License:	LGPL v2+
 Group:		Development/Languages/Perl
-Source0:	http://dl.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
-# Source0-md5:	ea386003b18f067524833b0eeb271330
+Source0:	https://downloads.sourceforge.net/gtk2-perl/%{pnam}-%{version}.tar.gz
+# Source0-md5:	88540ac900f4201b4fe1565f4de8ca93
 URL:		http://gtk2-perl.sourceforge.net/
 BuildRequires:	GConf2-devel >= 2.14.0
 # for typemaps generation
@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-rm -f $RPM_BUILD_ROOT%{perl_vendorarch}/Gnome2/GConf/*.pod
+%{__rm} $RPM_BUILD_ROOT%{perl_vendorarch}/Gnome2/GConf/*.pod
 rm -f $RPM_BUILD_ROOT%{perl_archlib}/perllocal.pod
 rm -f $RPM_BUILD_ROOT%{perl_vendorarch}/auto/Gnome2/GConf/.packlist
 
@@ -66,7 +66,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHOR ChangeLog NEWS README
 %{perl_vendorarch}/Gnome2/GConf.pm
 %dir %{perl_vendorarch}/auto/Gnome2/GConf
-%attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/GConf/*.so
+%attr(755,root,root) %{perl_vendorarch}/auto/Gnome2/GConf/GConf.so
 %dir %{perl_vendorarch}/Gnome2/GConf
 %{perl_vendorarch}/Gnome2/GConf/Install
 %{_mandir}/man3/Gnome2::GConf*.3pm*
